@@ -1,0 +1,19 @@
+.manzana {
+  border: 1px solid #000;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  -o-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+.manzana:hover {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -o-transform: scale 1.2;
+  -ms-transform: scale 1.2;
+  -moz-transform: scale 1.2;
+  -webkit-transform: scale 1.2;
+  transform: scale 1.2;
+}
